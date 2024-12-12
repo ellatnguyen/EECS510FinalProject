@@ -115,7 +115,7 @@ test_automaton("automaton.txt", "PBulbasaurItemDPotion") # Using Items
 print()
 test_automaton("automaton.txt", "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu") # Double Battle
 print()
-test_automaton("automaton.txt", "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu, PBulbasaurItemDPotion") # Triple Battle
+test_automaton("automaton.txt", "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu PBulbasaurItemDPotion") # Triple Battle
 
 print("=== REJECTED TEST CASES ===")
 test_automaton("automaton.txt", "SquirtleBubblePikachu") # No Notation
