@@ -19,7 +19,7 @@ Input: "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu"
 Explanation: Pikachu switches into Charizard, Squirtle uses Bubble on Pikachu (Valid Pattern: PSP & PMP)
 
 * Triple Battle *
-Input: "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu, PBulbasaurItemDPotion"
+Input: "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu PBulbasaurItemDPotion"
 Explanation: Pikachu switches into Charizard, Squirtle uses Bubble on Pikachu (Valid Pattern: PSP & PMP & PID)
 
 === REJECT ===
@@ -41,5 +41,5 @@ Input: ""
 Explanation: Trainers are not allowed to do nothing on their turn.
 
 * Not Single/Double/Triple Battle *
-Input: "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu, PBulbasaurItemDPotion PCharizardSwitchPidgeot"
+Input: "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu PBulbasaurItemDPotion PCharizardSwitchPidgeot"
 Explanation: The language only accepts single, double, and triple battles- so only 1-3 substrings.
