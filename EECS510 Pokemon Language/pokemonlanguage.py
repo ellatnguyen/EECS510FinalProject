@@ -126,4 +126,4 @@ test_automaton("automaton.txt", "PPikachuMThunderbolt") # No Target Pokemon
 print()
 test_automaton("automaton.txt", "") # No Input
 print()
-test_automaton("automaton.txt", "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu, PBulbasaurItemDPotion PCharizardSwitchPidgeot") # Not Single/Double/Triple Battle
+test_automaton("automaton.txt", "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu PBulbasaurItemDPotion PCharizardSwitchPidgeot") # Not Single/Double/Triple Battle
