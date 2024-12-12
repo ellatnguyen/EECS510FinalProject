@@ -1,0 +1,45 @@
+======== TEST CASES ========
+
+=== ACCEPT ===
+
+* Switching Pokemon *
+Input: "PPikachuSwitchPCharizard"
+Explanation: Pikachu switches into Charizard (Valid Pattern: PSP)
+
+* Pokemon Moves *
+Input: "PSquirtleMBubblePPikachu"
+Explanation: Squirtle uses Bubble on Pikachu (Valid Pattern: PMP)
+
+* Using Items *
+Input: "PBulbasaurItemDPotion"
+Explanation: Bulbasaur uses a Potion (Valid Pattern: PIP)
+
+* Double Battle *
+Input: "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu"
+Explanation: Pikachu switches into Charizard, Squirtle uses Bubble on Pikachu (Valid Pattern: PSP & PMP)
+
+* Triple Battle *
+Input: "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu, PBulbasaurItemDPotion"
+Explanation: Pikachu switches into Charizard, Squirtle uses Bubble on Pikachu (Valid Pattern: PSP & PMP & PID)
+
+=== REJECT ===
+
+* No Notation *
+Input: "SquirtleBubblePikachu"
+Explanation: Strings must be notated (e.g., PSquirtleMBubblePPikachu)
+
+* No Acting Pokemon * 
+Input: "MThunderboltPSquirtle"
+Explanation: Missing the first (acting) Pokemon (e.g., PPikachu)
+
+* No Target Pokemon *
+Input: "PPikachuMThunderbolt"
+Explanation: Missing the second (target) Pokemon (e.g., PSquirtle)
+
+* Skipping Turn *
+Input: ""
+Explanation: Trainers are not allowed to do nothing on their turn.
+
+* Not Single/Double/Triple Battle *
+Input: "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu, PBulbasaurItemDPotion PCharizardSwitchPidgeot"
+Explanation: The language only accepts single, double, and triple battles- so only 1-3 substrings.

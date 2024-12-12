@@ -1,0 +1,12 @@
+q0 q1 q2 q3 q4 q5
+P M S I D
+q0
+q4 q5
+q0 P q1       # Transition: Start -> Pokemon
+q1 M q2       # Transition: Pokemon -> Move
+q1 S q2       # Transition: Pokemon -> Switch
+q1 I q3       # Transition: Pokemon -> Item
+q2 P q4       # Transition: Move/Switch -> Pokemon
+q3 D q5       # Transition: Item -> Determiner
+q4 P q1       # Loop: Another Pokemon in double/triple battle
+q5 P q1       # Loop: Another Pokemon in double/triple battle
