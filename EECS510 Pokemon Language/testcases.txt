@@ -12,7 +12,7 @@ Explanation: Squirtle uses Bubble on Pikachu (Valid Pattern: PMP)
 
 * Using Items *
 Input: "PBulbasaurItemDPotion"
-Explanation: Bulbasaur uses a Potion (Valid Pattern: PIP)
+Explanation: Bulbasaur uses a Potion (Valid Pattern: PID)
 
 * Double Battle *
 Input: "PPikachuSwitchPCharizard PSquirtleMBubblePPikachu"
